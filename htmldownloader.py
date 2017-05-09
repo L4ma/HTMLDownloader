@@ -9,3 +9,6 @@ print content
 
 f = file('Website.html', 'w')
 f.write(content)
+
+print 'Thank you, for using this program! :)'
+
