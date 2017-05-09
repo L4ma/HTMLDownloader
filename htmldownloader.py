@@ -1,11 +1,11 @@
 import urllib2
 
-Homepage=raw_input("Welche Adresse wollen sie downloaden? ")
+Website=raw_input("What's the webadress you want to download? ")
 
-fd=urllib2.urlopen(Homepage)
+fd=urllib2.urlopen(Website)
 content=fd.read()
 fd.close()
 print content
 
-f = file('website.html', 'w')
+f = file('Website.html', 'w')
 f.write(content)
