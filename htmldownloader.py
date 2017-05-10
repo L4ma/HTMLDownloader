@@ -11,3 +11,8 @@ f.write(content)
 
 print 'Thank you, for using this program! :)'
 
+
+
+
+
+#Copyright by L4ma
