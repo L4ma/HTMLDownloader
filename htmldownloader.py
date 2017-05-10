@@ -5,7 +5,6 @@ Website=raw_input("What's the webadress you want to download? ")
 fd=urllib2.urlopen(Website)
 content=fd.read()
 fd.close()
-print content
 
 f = file('Website.html', 'w')
 f.write(content)
